@@ -3,7 +3,7 @@ version: "3.7"
 services:
   proxy:
     build: .
-    image: thematerr/caching-proxy
+    image: themasterr/caching-proxy
     environment:
       UPSTREAM: http://example.com
       MAX_SIZE: 500m
